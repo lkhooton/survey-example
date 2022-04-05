@@ -10,15 +10,19 @@
 <body>
   <h1 id="title">The Very Important Pizza Survey</h1>
   <h2>Thank you for taking the time to think about pizza</h2>
+  <p id="description">Please input your pizza opinions!</p>
+
   <form id="survey-form">
-    <label for="firstname">First Name</label>
-    <input type="text"><br><br>
-    <label for="lastname">Last Name</label>
-    <input type="text"><br><br>
+    <br><br>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name"><br><br>
+
     <label for="email">Email</label>
-    <input type="text"><br><br>
+    <input type="text" name="email"><br><br>
+
     <lable for="age">Age (optional)</lable>
-    <input for="text"><br><br>
+    <input for="text" name="age"><br><br>
+
     <label for="dropdowm">How often do you eat pizza?</label>
     <select name="often">
       <option value="daily">Daily</option>
@@ -26,24 +30,28 @@
       <option value="monthly">Monthly</option>
       <option value="yearly">Yearly</option>
     </select><br><br>
+
     <label for="pineapple">Would you eat pineapple on pizza?</label><br>
     <label for="no">NO</label>
-    <input type="radio" value="no">
+    <input type="radio" value="no" name="radion">
     <label for="Yes">Yes</label>
-    <input type="radio" value="yes"><br><br>
+    <input type="radio" value="yes" name="radioy"><br><br>
 
     <label for="question">How can pizza improve?</label><br><br>
-    <input type="checkbox" value="cheese">
+    <input type="checkbox" value="cheese" name="cheese">
     <label for="cheese2">More Cheese</label><br><br>
-    <input type="checkbox" value="sauce">
+    <input type="checkbox" value="sauce" name="sauce">
     <label for="sauce2">More sauce</label><br><br>
-    <input type="checkbox" for="crispy">
+    <input type="checkbox" for="crispy" name="crispy">
     <label for="crispy">Crispier</label><br><br>
-    <input type="checkbox" for="thin">
+    <input type="checkbox" for="thin" name="thin">
     <label for="thin">Thinner</label><br><br>
-    <input type="checkbox" for="thick">
-    <label for="thick">Thicker</label>
+    <input type="checkbox" for="thick" name="thick">
+    <label for="thick">Thicker</label><br><br>
 
+    <label for="textinput">Any other strong pizza opinions?</label><br>
+    <textarea id="texty" name="textinput" rows="4" cols="40"></textarea><br><br>
+    <input type="submit" id="submit" name="submit"><br><br>
 
   </form>
 </body>
