@@ -1,0 +1,10 @@
+body {
+ text-align: center;
+ background-image: url('images/pizza-slice-seamless-pattern-background-vector-23391360.jpeg');
+}
+h1, h2 {
+  background-color: white;
+}
+#survey-form {
+  background-color: aliceblue;
+}
