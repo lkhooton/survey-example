@@ -5,8 +5,18 @@ body {
 h1, h2 {
   background-color: white;
 }
+h1 {
+  font-family: 'Lobster', cursive;;
+
+}
 #survey-form {
-  background-color: aliceblue;
+  text-align: center;
+  background: aliceblue;
+  background-size: 150px;
+  width: 500px;
+  height: 600px;
+  border: 2px solid;
+  color: black;
   
 }
 #description {
