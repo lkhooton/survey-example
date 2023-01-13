@@ -9,6 +9,12 @@ h1 {
   font-family: 'Lobster', cursive;;
 
 }
+
+#form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #survey-form {
   text-align: center;
   background: aliceblue;
